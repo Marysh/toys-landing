@@ -1,0 +1,125 @@
+/* line 1, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc {
+  width: 100%;
+  padding: 67px 0 320px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* line 8, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc .hdr {
+  margin-bottom: 150px;
+}
+
+/* line 9, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc .hdr_logo-sign {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+/* line 15, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc .hdr_nav-item {
+  text-align: center;
+  min-width: 130px;
+  padding: 10px 20px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 22, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc .hdr_nav-item:not(:last-child) {
+  margin-right: 28px;
+}
+
+/* line 26, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc .hdr_nav-item.active {
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+}
+
+/* line 33, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc-image {
+  right: 0;
+  margin-left: -100px;
+}
+
+/* line 38, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc-text {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 130px;
+}
+
+/* line 42, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc-text h1 {
+  line-height: 1.3;
+  font-size: 102px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* line 48, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc-text p {
+  line-height: 1.6;
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+/* line 53, E:/mary/projects/toys4brain/scss/_firstscreen.scss */
+.fsc-text a {
+  color: #ffc107;
+}
+
+/* line 5, E:/mary/projects/toys4brain/scss/_popup.scss */
+.popup_items {
+  position: relative;
+  top: -190px;
+}
+
+/* line 11, E:/mary/projects/toys4brain/scss/_popup.scss */
+.popup_item {
+  background-color: #ffffff;
+  width: 33.3333%;
+  padding: 30px 60px;
+  text-align: center;
+  border: 1px solid #E5EBF0;
+}
+
+/* line 18, E:/mary/projects/toys4brain/scss/_popup.scss */
+.popup_item:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 5px 0 #ebe8eb;
+}
+
+/* line 23, E:/mary/projects/toys4brain/scss/_popup.scss */
+.popup_item-img {
+  margin-bottom: 20px;
+}
+
+/* line 27, E:/mary/projects/toys4brain/scss/_popup.scss */
+.popup_item-name {
+  color: #2392FD;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+/* line 35, E:/mary/projects/toys4brain/scss/_popup.scss */
+.popup_item-price {
+  color: #20262B;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* line 1, E:/mary/projects/toys4brain/scss/_delivery.scss */
+.delivery {
+  padding: 791px 10px 100px 10px;
+}
+
+/*# sourceMappingURL=../css/general.map */

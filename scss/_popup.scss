@@ -1,0 +1,43 @@
+.popup {
+
+
+
+  &_items {
+    //margin-top: -190px;
+    position: relative;
+    top: -190px;
+  }
+
+  &_item {
+    background-color: #ffffff;
+    width: 33.3333%;
+    padding: 30px 60px;
+    text-align: center;
+    border: 1px solid #E5EBF0;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 4px 5px 0 rgba(235,232,235,1);
+    }
+
+    &-img {
+      margin-bottom: 20px;
+    }
+
+    &-name {
+      color: #2392FD;
+      line-height: 1.5;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 26px;
+    }
+    &-price {
+      color: #20262B;
+      line-height: 1;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+  }
+}
